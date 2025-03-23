@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-container">
+        <img src="img/pop.png" alt="Logo" class="header-logo">
+        <div class="header-left">
+            <h1>Tienda en Línea</h1>
+            <h2 class="encabezado">JOSEF BENJAMIN COLIN MARTINEZ DSM-51</h2>
+            <p>Encuentra los mejores productos tecnológicos al mejor precio.</p>
+        </div>
+        <div class="header-right">
+            <input type="text" id="search-bar" placeholder="Buscar productos...">
+            <button id="cart-btn">🛒</button>
+        </div>
+    </header>
+        <section id="productos">
+        <div class="producto" data-nombre="Laptop Gamer">
+            <img src="img/laptop.jpg" alt="Laptop Gamer">
+            <h3>Laptop Gamer</h3>
+            <p>Precio: $1200</p>
+            <div class="rating">★★★★★</div>
+            <p>Potente laptop para juegos con tarjeta gráfica dedicada y pantalla Full HD de 15.6".</p>
+            <button class="add-to-cart" data-nombre="Laptop Gamer" data-precio="1200">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Smartphone Pro">
+            <img src="img/pro.jpg" alt="Smartphone Pro">
+            <h3>Smartphone Pro</h3>
+            <p>Precio: $999</p>
+            <div class="rating">★★★★☆</div>
+            <p>Smartphone con cámara de 64 MP, pantalla AMOLED de 6.5" y procesador de última generación.</p>
+            <button class="add-to-cart" data-nombre="Smartphone Pro" data-precio="999">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Audífonos Bluetooth">
+            <img src="img/audifonos.png" alt="Audífonos Bluetooth">
+            <h3>Audífonos Bluetooth</h3>
+            <p>Precio: $150</p>
+            <div class="rating">★★★★☆</div>
+            <p>Audífonos inalámbricos con cancelación de ruido y sonido de alta calidad.</p>
+            <button class="add-to-cart" data-nombre="Audífonos Bluetooth" data-precio="150">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Smartwatch">
+            <img src="img/smarwatch.jpg" alt="Smartwatch">
+            <h3>Smartwatch</h3>
+            <p>Precio: $250</p>
+            <div class="rating">★★★☆☆</div>
+            <p>Reloj inteligente con monitor de salud, notificaciones y seguimiento de actividad.</p>
+            <button class="add-to-cart" data-nombre="Smartwatch" data-precio="250">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Teclado Mecánico">
+            <img src="img/teclado.png" alt="Teclado Mecánico">
+            <h3>Teclado Mecánico</h3>
+            <p>Precio: $150</p>
+            <div class="rating">★★★★☆</div>
+            <p>Teclado mecánico RGB con switches mecánicos para una experiencia de escritura precisa y rápida.</p>
+            <button class="add-to-cart" data-nombre="Teclado Mecánico" data-precio="150">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Ratón Gaming">
+            <img src="img/raton.png" alt="Ratón Gaming">
+            <h3>Ratón Gaming</h3>
+            <p>Precio: $80</p>
+            <div class="rating">★★★★☆</div>
+            <p>Ratón ergonómico con botones programables y sensores de alta precisión para juegos.</p>
+            <button class="add-to-cart" data-nombre="Ratón Gaming" data-precio="80">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Monitor UltraWide">
+            <img src="img/monitor.png" alt="Monitor UltraWide">
+            <h3>Monitor UltraWide</h3>
+            <p>Precio: $600</p>
+            <div class="rating">★★★★★</div>
+            <p>Monitor UltraWide de 34 pulgadas con resolución 1440p y una tasa de refresco de 144Hz.</p>
+            <button class="add-to-cart" data-nombre="Monitor UltraWide" data-precio="600">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Silla Ergonómica">
+            <img src="img/silla.png" alt="Silla Ergonómica">
+            <h3>Silla Ergonómica</h3>
+            <p>Precio: $350</p>
+            <div class="rating">★★★★☆</div>
+            <p>Silla ergonómica ajustable con soporte lumbar, ideal para largas jornadas de trabajo o juego.</p>
+            <button class="add-to-cart" data-nombre="Silla Ergonómica" data-precio="350">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Cámara Web 4K">
+            <img src="img/camara.png" alt="Cámara Web 4K">
+            <h3>Cámara Web 4K</h3>
+            <p>Precio: $200</p>
+            <div class="rating">★★★☆☆</div>
+            <p>Cámara web con resolución 4K, ideal para videoconferencias y streaming de alta calidad.</p>
+            <button class="add-to-cart" data-nombre="Cámara Web 4K" data-precio="200">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Disco Duro SSD 1TB">
+            <img src="img/disco.png" alt="Disco Duro SSD 1TB">
+            <h3>Disco Duro SSD 1TB</h3>
+            <p>Precio: $120</p>
+            <div class="rating">★★★★★</div>
+            <p>Disco duro SSD de 1TB para almacenamiento rápido y confiable.</p>
+            <button class="add-to-cart" data-nombre="Disco Duro SSD 1TB" data-precio="120">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Cargador Inalámbrico">
+            <img src="img/cargador.png" alt="Cargador Inalámbrico">
+            <h3>Cargador Inalámbrico</h3>
+            <p>Precio: $40</p>
+            <div class="rating">★★★☆☆</div>
+            <p>Cargador inalámbrico rápido para tus dispositivos compatibles con carga Qi.</p>
+            <button class="add-to-cart" data-nombre="Cargador Inalámbrico" data-precio="40">Agregar al Carrito</button>
+        </div>
+    </section>
+    
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <button id="clear-cart">Vaciar Carrito</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
